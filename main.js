@@ -81,9 +81,10 @@ console.log("its the color")
 // 6 Declare a function that takes a name as an argument and tells the user what name they've entered. Try running it after it has been declared.
 // ansewer:
 function someName (nameOne, nameTwo);{
-  console.log("maria is my name");
+  console.log(nameOne +" is my name" + nameTwo);
 }
-someName()
+someName("maria","daniel")
+
 // 7 Declare a function that takes no arguments but prints something to the console. Try running it after it has been declared.
 function school(){
   console.log('beer');
