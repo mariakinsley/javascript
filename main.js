@@ -42,25 +42,31 @@ console.log(student)
 
 // 3 Write a script that checks if a variable captured from a prompt is less than 100. If it is, alert the user that their variable is less than 100. If it is not alert the user of what the value was and that it was greater than 100.
 // ansewer://
-if (5 < 10) {
-
-} else {
-console.log("5 is not less than 10");
-}
-var pets = "dogs"
-if (pets == "dogs") {
-  console.log("cats")
-} else {
-  alert("pets")
-}
-
- var numbers = 100
- if ( numbers < 99) {
-   alert("you got it!");
+var number = prompt("type number")
+if (number < 100){
+   alert("you number is less than 100");
  } else {
-  prompt("100");
-
+   alert ("your number is => 100")
  }
+  // if (5 < 10) {
+
+// } else {
+// console.log("5 is not less than 10");
+// }
+// var pets = "dogs"
+// if (pets == "dogs") {
+//   console.log("cats")
+// } else {
+//   alert("pets")
+// }
+
+//  var numbers = 100
+//  if ( numbers < 99) {
+//    alert("you got it!");
+//  } else {
+//   prompt("100");
+
+//  }
  //  // prompt(this is " + numbers" this is greater);
 
 
